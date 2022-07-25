@@ -10,7 +10,7 @@ const Hero = () => {
           srcSet='/images/hero-img.avif, /images/hero-image@2x.avif, /images/hero-image@3x.avif'
         />
         <source
-          type='image/jpg'
+          type='image/jpeg'
           srcSet='/images/hero-img.jpg, /images/hero-image@2x.jpg, /images/hero-image@3x.jpg'
         />
         <HeroImage

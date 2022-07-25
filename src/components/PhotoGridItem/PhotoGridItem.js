@@ -14,7 +14,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
             )}, ${src.replace(".jpg", "@3x.avif")}`}
           />
           <source
-            type='image/jpg'
+            type='image/jpeg'
             srcSet={`${src}, ${src.replace(".jpg", "@2x.jpg")}, ${src.replace(
               ".jpg",
               "@3x.jpg"
