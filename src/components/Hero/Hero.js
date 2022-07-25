@@ -18,7 +18,10 @@ const Hero = () => {
           alt='Attention-grabbing hero image of a cat with icy blue eyes.'
         />
       </picture>
-      <Swoop src='/swoop.svg' />
+      <Swoop
+        src='/swoop.svg'
+        alt='Patterned swoop shape denoting the start of main content'
+      />
     </Wrapper>
   );
 };
