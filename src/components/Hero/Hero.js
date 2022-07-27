@@ -15,13 +15,10 @@ const Hero = () => {
         />
         <HeroImage
           src='/images/hero-img.jpg'
-          alt='Attention-grabbing hero image of a cat with icy blue eyes.'
+          alt='Attention-grabbing example image of a cat with icy blue eyes on a black background.'
         />
       </picture>
-      <Swoop
-        src='/swoop.svg'
-        alt='Patterned swoop shape denoting the start of main content'
-      />
+      <Swoop src='/swoop.svg' alt='' />
     </Wrapper>
   );
 };
